@@ -1,0 +1,31 @@
+key points 
+
+1. start with index.html
+2. API→ using exchange rate api 
+3. div container, div amount inside form, div dropdown(creating 2 dropdown, 1 for FROM , 1 for TO) iske andar div select container yeh saari classes jo bnaate h yeh baad me **styling ke kaam aati h STYLE.CSS me** 
+
+![image.png](attachment:1dfc0227-956b-4089-99bd-27a0e76472a7:image.png)
+
+1. note: **dropdown** ko **create** krne ke liye hum HTML ke andar SELECT element ko use krte h uske andar OPTION tag(html element ) hota h with **value attribute**
+2. feature → **country image** with currency using img tag (but every country has diff flag so it is not necesaary that we download image of evry country flag so for that also we have **FLAGS [API.COM](http://API.COM)**  in which we have **LINK** from which we can **bring any country flag**) AND codes.js file in which all countrues **currency code and country code** thats why we name it **codes.js** 
+3. feature 2→ 159 countries information
+4. API→ flag api.com
+5. **SELECTED attribute** agr dropdown me specific whi option dikhana h
+6. **Form tag** me koi bhi **button tag - submit** ki tarah work krta h..jesi hi click krenge vaise hi page RELOAD hoga
+7. website for styling font ausom , coolers 
+8. style.css 
+    
+    ![image.png](attachment:b1290a90-a5df-4da2-8d5b-b3f45b87fab8:image.png)
+    
+    1. connect both in index.html
+    
+    ![image.png](attachment:5f7845a5-5933-48f9-a469-db8d0a5b7345:image.png)
+    
+9. now we work on APP.JS → all Js LOgic Reside inside this 
+10. API→ using **CURRENCY API(** start from 55 min)
+    1. Diff services(api endpoints/URL) in this api, we are going to use exchange currency service
+    2. this shows last updated date and exchange rate from us to inr
+        
+        ![image.png](attachment:1b0a9b3c-5807-43e4-88ef-ea35521a838b:image.png)
+        
+    3. c. copy link and paste in **variable BASE_URL.**In this Link after currency we use VARIABLES for dynamic changes
