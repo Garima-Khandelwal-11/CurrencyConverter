@@ -9,7 +9,6 @@ A simple and responsive web app that converts one currency to another using **re
 - Currency API (Fawaz Ahmed Currency API)
 
 ## 📸 Project Preview
-![Currency Converter Screenshot](./e08479c8-0bc6-49de-a771-99059570c1dc.png)
 <img width="501" height="400" alt="image" src="https://github.com/user-attachments/assets/be924c55-76f1-4f23-b980-2ce7b3a3ae77" />
 
 
